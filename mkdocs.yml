@@ -1,0 +1,29 @@
+site_name: DracoByte Docs
+site_url: https://docs.dracobyte.pro
+site_description: Documentation for DracoByte Hosting
+
+theme:
+  name: material
+  # Default to dark mode (slate) but allow toggle
+  palette:
+    - scheme: slate
+      primary: blue
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: blue
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Fira Code
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
